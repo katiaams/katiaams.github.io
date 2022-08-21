@@ -13,17 +13,36 @@
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
+@font-face {
+    font-family: 'montserrat';
+    src: url('C:\Users\katia\Downloads\Jornada Dev EBAC\katiaams\katiaams.github.io\Montserrat\Montserrat-Regular.ttf') format(opentype);
+
+}
+@font-face {
+    font-family: 'montserrat-bold';
+    src: url('C:\Users\katia\Downloads\Jornada Dev EBAC\katiaams\katiaams.github.io\Montserrat\Montserrat-Bold.ttf'); format(opentype)
+
+}
+/*FONTS APL*/
+
+.right-title,
+.left-title,
+.name,
+.profession {
+    font-family: 'montserrat';
+}
+
 
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #999999;
+    background-color:  #005792;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #424a50;
+    background-color: #00204a;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -43,13 +62,13 @@
 
 .name {
     color: #D6DBDF;
-    font-size: 30px;
-    letter-spacing: 2px;
+    font-size: 28px;
+    letter-spacing: px;
     text-transform: uppercase;
 }
 
 .profession {
-    color: #eeeeee;
+    color: #fdb44b;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -57,7 +76,7 @@
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #eeeeee;
+    color: #fdb44b;
     font-size: 20px;
 }
 
@@ -91,7 +110,7 @@
 }
 
 .right-title {
-    color: #eeeeee;
+    color: #00bbf0;
 }
 
 .gap {
