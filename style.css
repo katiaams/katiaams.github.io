@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .resume-contents {
@@ -13,25 +13,6 @@
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
-@font-face {
-    font-family: 'montserrat';
-    src: url('C:\Users\katia\Downloads\Jornada Dev EBAC\katiaams\katiaams.github.io\Montserrat\Montserrat-Regular.ttf') format(opentype);
-
-}
-@font-face {
-    font-family: 'montserrat-bold';
-    src: url('C:\Users\katia\Downloads\Jornada Dev EBAC\katiaams\katiaams.github.io\Montserrat\Montserrat-Bold.ttf'); format(opentype)
-
-}
-/*FONTS APL*/
-
-.right-title,
-.left-title,
-.name,
-.profession {
-    font-family: 'montserrat';
-}
-
 
 .left-section {
     grid-column: span 2;
@@ -114,7 +95,7 @@
 }
 
 .gap {
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 .about-me-contents {
     font-size: 18px;
